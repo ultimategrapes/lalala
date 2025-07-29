@@ -62,6 +62,11 @@ body {
     border: none;
     padding: 0;
     cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
 }
 
 .button img {
@@ -76,3 +81,4 @@ body {
     gap: 10px;
     margin-top: 20px;
 }
+

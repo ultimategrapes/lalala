@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: bisque;
+    background-color: rgb(247, 232, 214);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -30,6 +30,7 @@ body {
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    transition: transform 0.2s ease;
 }
 
 .launcherButton img {
@@ -37,4 +38,17 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.launcherButton:hover {
+    transform: scale(1.1);
+    animation: wiggle 0.3s ease;
+}
+
+@keyframes wiggle {
+    0%   { transform: scale(1.1) rotate(0deg); }
+    25%  { transform: scale(1.1) rotate(3deg); }
+    50%  { transform: scale(1.1) rotate(-3deg); }
+    75%  { transform: scale(1.1) rotate(1deg); }
+    100% { transform: scale(1.1) rotate(0deg); }
 }

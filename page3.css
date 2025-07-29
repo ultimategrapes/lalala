@@ -1,0 +1,19 @@
+body {
+    background-image: url('cuteStars.jpg');
+    text-align: center;
+    padding: 40px;
+}
+
+.gifContainer {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.body-text {
+            margin-top: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            line-height: 1.6;
+        }

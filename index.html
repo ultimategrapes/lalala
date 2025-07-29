@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Launch</title>
+        <link rel="stylesheet" href="launchStyle.css">
+    </head>
+    <body>
+        <div class="launcherContainer">
+            <img src="spongebobFlower.jpg" alt="Launcher Image" class="launcherImage">
+            <button onclick="openPopup()" class="launcherButton">
+                <img src="launchButton.png" alt="Launch Button">
+            </button>
+        </div>
+        
+        <script>
+            function openPopup() {
+                window.open('page2.html', 'popupWindow', 'width=500,height=500,resizable=no');
+            }
+        </script>
+    </body>
+</html>
